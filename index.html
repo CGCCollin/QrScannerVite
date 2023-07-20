@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="./css/index.css">
+        <title>QR scanner</title>
+    </head>
+    <header>
+        <h1 class="MainHeader">Please align the QR code with the camera then click capture</h1>
+    </header>
+    <body>
+        <div class="camContainer">
+           <!-- Element display captured data from client camera-->
+          <video id="videoElement" class="view" width="auto" height="auto" controls autoplay ></video>
+          <button id="capture" class="please">Click To Capture</button>
+          <a id="output">Output Link</a>
+          <!-- canvas used to capture data from video at client request-->
+          <canvas id="canvas"></canvas>
+          
+          
+          <script src="/src/index.ts" type="module">
+          </script>
+        </div>
+    </body>
+</html>

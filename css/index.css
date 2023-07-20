@@ -1,0 +1,136 @@
+body{
+    background-color: #333333;
+
+}
+header{
+    margin-top: 0%;
+    margin-left: 0%;
+    margin-bottom: 1%;
+    border-style: solid;
+    border-width: 1vmin;
+    border-color: #111111;
+    background-color: #f90a2a;
+    padding: 2%;
+    position: relative;
+}
+
+
+.MainHeader{
+    font-size: clamp(3vmin,4vmin,6vmin);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 800;
+    color: rgb(21, 22, 23);
+    text-align: center;
+}
+
+.canvas{
+    visibility: hidden;
+}
+.camContainer{
+    position: relative;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.view{
+    position: relative;
+    margin: auto;
+    margin-bottom: 1%;
+    width: 53%;
+    height: 40%;
+    border-style: solid;
+    border-radius: 4vmin;
+    border-width: 1vmin;
+    border-color: #111111;
+
+    display: block;
+    
+    padding: 0;
+}
+
+#capture{
+    
+    position: relative;
+    margin: auto;
+    margin-bottom: 1%;
+    
+    border-style: solid;
+    border-radius: 4vmin;
+    border-width: 1vmin;
+    border-color: #111111;
+    
+
+    width: 20%;
+    padding: 1.2%;
+
+    text-align: center;
+
+    background-color: #f90a2a;
+    
+
+    font-size: clamp(2vmin,3vmin,4.5vmin);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+
+    color: #111111;
+
+    display: block;
+}
+
+#capture :hover{
+    
+    position: relative;
+    margin: auto;
+    margin-bottom: 1%;
+    
+    border-style: solid;
+    border-radius: 4vmin;
+    border-width: 1vmin;
+    border-color: #111111;
+    
+
+    width: 20.000001%;
+    padding: 1.2%;
+
+    text-align: center;
+
+    background-color: #000000;
+    
+
+    font-size: 50%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+
+    color: #111111;
+
+    display: block;
+}
+
+#output{
+    position: relative;
+
+    display: block;
+    margin:auto;
+
+    width: clamp(20%,53%,75%);
+    height: clamp(3vmin,5vmin,7vmin);
+    
+
+    border-style: solid;
+    border-radius: 4vmin;
+    border-width: 1vmin;
+    border-color: #111111;
+
+    padding-top: 1%;
+    padding-bottom: 1%;
+
+
+    font-size: clamp(2vmin,3vmin,4.5vmin);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    color: #111111;
+    text-decoration: underline;
+    text-align: center;
+
+    background-color: #f90a2a;
+
+}
